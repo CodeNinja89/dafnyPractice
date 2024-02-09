@@ -105,7 +105,7 @@ class Queue{
                 decreases |spine| - j
             {
                 spine[j].footprint := spine[j].footprint + n.footprint;
-                j := j - 1;
+                j := j + 1;
             }
         }
     }
